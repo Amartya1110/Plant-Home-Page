@@ -1,0 +1,170 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+/* =================================== */
+/* ============= Nav Bar ============= */
+/* =================================== */
+
+#navbarMonstera {
+    margin: 50px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navFirst {
+    flex-grow: 1;
+}
+
+#navMid {
+    flex-grow: 2;
+    display: flex;
+    justify-content: space-around;
+}
+
+#navEnd {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navMid h4 {
+    font-family: "Allerta";
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#navEnd img {
+    height: 20px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+
+
+/* ============================================= */
+/* ============= Remaining Portion ============= */
+/* ============================================= */
+
+#midWhole {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#midWholePart1 {
+    margin-top: 10vh;
+    margin-left: 30px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* #midWholePart11 ul> li::marker {
+    font-size: 20px;
+} */
+
+#midWholePart11 {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+midWholePart11>div {
+    margin-left: 30px;
+}
+
+#midWholePart11::before {
+    content: ". . . .";
+    font-size: 80px;
+    width: 30px;
+    line-height: 40%;
+}
+
+#midWholePart11 ul {
+    max-width: 550px;
+}
+
+#midWholePart11 ul>li{
+    font-family: "Abel";
+    font-size: 20px;
+    list-style: none;
+}
+
+#midWholePart11 ul>li {
+    font-family: "Abel";
+    font-size: 20px;
+    list-style: none;
+}
+
+#monstera {
+    font-family: "Allerta";
+    font-size: 100px;
+    font-stretch: extra-expanded;
+}
+
+#midWholePart121 {
+    background-color: #466d50;
+    border-radius: 40px;
+    color: #ffffff;
+    font-family: "Allerta";
+    font-weight: 200;
+    padding: 20px 40px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+#midWholePart122 {
+    padding: 0 10px;
+} 
+
+#midWholePart13 {
+    display: flex;
+    min-width: 50vw;
+}
+
+.midWholePart13Parts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.midWholePart13Parts img {
+    height:50px;
+    margin: 10px;
+}
+
+.midWholePart13Parts h4 {
+    font-family: "Allerta";
+    font-size: 20px;
+}
+
+.text {
+    max-width: 150px;
+    font-family: "Allerta";
+    font-size: 10px;
+    word-break: keep-all;
+    /* white-space: normal; */
+}
+
+#feeding {
+    height: 70px;
+}
+
+
+
+#imgMain{
+    height: 100vh;
+    z-index:-1;
+}
+
+
+
